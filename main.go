@@ -12,6 +12,6 @@ func main() {
 	router.GET("/employee/:id", handler.GetEmpoyee)
 	router.PUT("/employee/:id", handler.UpdateEmpoyee)
 	router.DELETE("/employee/:id", handler.DeleteEmployee)
-
+	// роутер по умолчанию
 	router.Run()
 }
